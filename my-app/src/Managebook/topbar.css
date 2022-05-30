@@ -1,0 +1,45 @@
+.topbar
+{
+    width: 100%;
+    height: 50px;
+    /* padding: 6px; */
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+    z-index:999;
+}
+.topbarleft
+{
+    padding-top: 4px;
+}
+.topbarnested
+{
+   height: 100%;
+   padding: 0px 20px;
+   display:flex;
+   justify-content: space-between;
+}
+.logo
+{ 
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 600;
+    margin-left: -25    px;
+    font-family: sans-serif;
+    color: rgb(80, 168, 226);
+}
+
+
+.topbarrightcontainer
+{
+    position: relative;
+    cursor: pointer;
+    /* margin-right: 10px; */
+}
+.topright
+{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,53 @@
+.bookadd
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    flex: 4;
+}
+
+.formitem
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.wrapperform
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.wrapperform>label
+{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.wrapperform>input
+{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.buttonsubmit
+{
+    margin-top: 20px;
+    height: 35px;
+    color: #fff;
+    border: 1px solid bisque;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(80, 168, 226);
+    width: 200px;
+}
+.textarea
+{
+    height: 75px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}

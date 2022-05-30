@@ -1,0 +1,11 @@
+.books
+{
+    padding: 10px;
+ flex: 4;
+ width: 100%;
+ /* height: 500px; */
+}
+.deleteicon
+{
+    cursor: pointer;
+}
